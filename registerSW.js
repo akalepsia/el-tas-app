@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/el-tas-app/sw.js', { scope: '/el-tas-app/' })})}
